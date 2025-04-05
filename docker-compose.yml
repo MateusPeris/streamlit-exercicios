@@ -1,0 +1,73 @@
+version: "3.8"
+
+services:
+  exercicio1:
+    build: .
+    environment:
+      - EXERCICIO=1.py
+    ports:
+      - "8501:8501"
+
+  exercicio2:
+    build: .
+    environment:
+      - EXERCICIO=2.py
+    ports:
+      - "8502:8501"
+
+  exercicio3:
+    build: .
+    environment:
+      - EXERCICIO=3.py
+    ports:
+      - "8503:8501"
+
+  exercicio4:
+    build: .
+    environment:
+      - EXERCICIO=4.py
+    ports:
+      - "8504:8501"
+
+  exercicio5:
+    build: .
+    environment:
+      - EXERCICIO=5.py
+    ports:
+      - "8505:8501"
+
+  exercicio6:
+    build: .
+    environment:
+      - EXERCICIO=6.py
+    ports:
+      - "8506:8501"
+
+  exercicio7:
+    build: .
+    environment:
+      - EXERCICIO=7.py
+    ports:
+      - "8507:8501"
+
+  exercicio8:
+    build: .
+    environment:
+      - EXERCICIO=8.py
+    ports:
+      - "8508:8501"
+
+  exercicio9:
+    build: .
+    environment:
+      - EXERCICIO=9.py
+    ports:
+      - "8509:8501"
+
+  exercicio10:
+    build: .
+    environment:
+      - EXERCICIO=10.py
+      - API_KEY=SUA_CHAVE_AQUI  # Substitua por sua chave da OpenWeather
+    ports:
+      - "8510:8501"
