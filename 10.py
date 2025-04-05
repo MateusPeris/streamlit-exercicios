@@ -4,7 +4,7 @@ from PIL import Image
 from io import BytesIO
 
 # Chave de API da OpenWeatherMap
-API_KEY = 'sua_chave_de_api_aqui'  # Substitua pelo seu API Key
+API_KEY = '3e58f7fc50ad0620b6050d592981e0a6'  # Substitua pelo seu API Key
 
 # URL base da API de clima
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
